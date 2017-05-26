@@ -1,0 +1,16 @@
+PODS:
+  - HRProgressButton (0.1.0)
+
+DEPENDENCIES:
+  - HRProgressButton (from `../`)
+
+EXTERNAL SOURCES:
+  HRProgressButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HRProgressButton: 9a6938da6848b5078c0ef467bff6bec55489d92d
+
+PODFILE CHECKSUM: 86993144633a5d71d8be83e9a29ba8d2b1bee398
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module HRProgressButton {
+  umbrella header "HRProgressButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

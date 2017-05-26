@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060D7373597AD9EFABE4AC4619B6CF53 /* HRTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70308E4F878E103211631C70E2C8FF2B /* HRTextStyle.swift */; };
+		1BD01B39CD5ED5B5A68CFF93A870C03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		20FE69D55EEA45B2CA595938CECEE916 /* Pods-HRProgressButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B3B8F0D8CA898F317A281C04CB1C2F /* Pods-HRProgressButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D762A7A563EDECE893F7E57735B7341 /* Pods-HRProgressButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4132717A32E3E6B9FD84D277577397E5 /* Pods-HRProgressButton_Tests-dummy.m */; };
+		3C4DC4BDA07179FEFB3D72D2EFC77879 /* Pods-HRProgressButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B5EEC083FEE6E011A78A8E445A61C /* Pods-HRProgressButton_Example-dummy.m */; };
+		5488CB336A4E9678B1F5F0CA9802106D /* HRProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8E3F42B30905072C8DA99A98CA5A6 /* HRProgressButton.swift */; };
+		607C02AAAA53BF730A20CA484E0E3F2F /* Pods-HRProgressButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97B4EDB04C4B32F160515C188E37546 /* Pods-HRProgressButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		651318F437332836E97C131EFFD96B95 /* HRIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE09B42BD97C1020FE4CED91AED00E52 /* HRIndicatorView.swift */; };
+		9219048CBA26F92B024324D10E1A4694 /* HRProgressButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F34BAFAFE902EF7F176834A27B9D9E /* HRProgressButton-dummy.m */; };
+		999B571C65B4453BC3B241534DB3D67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D5C591ADDAB7CB5BEC68FFAFE83D1276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FAF9BE616FABFD4B4D3E89EBC4A5BA46 /* HRProgressButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B04E880F541F2C920C4429092A4BF16 /* HRProgressButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E066AF8F5F9D4275623B4058E37A020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D115E98B2513B780B98F9C6C14DE790;
+			remoteInfo = HRProgressButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F34BAFAFE902EF7F176834A27B9D9E /* HRProgressButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRProgressButton-dummy.m"; sourceTree = "<group>"; };
+		1F9B64E3740B85BC443163254EA35067 /* Pods-HRProgressButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRProgressButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		223D08D870169FF9907D80E5C67EB516 /* Pods-HRProgressButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRProgressButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B109BB796782DD3DB3CF5B1BFB18231 /* Pods-HRProgressButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRProgressButton_Example-resources.sh"; sourceTree = "<group>"; };
+		2B18A0763D258887FAC81FFE1AEC2C78 /* Pods-HRProgressButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRProgressButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4132717A32E3E6B9FD84D277577397E5 /* Pods-HRProgressButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRProgressButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		46C524430A53BC872AD5F58914382B68 /* HRProgressButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRProgressButton.framework; path = HRProgressButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488B467E90C542DF029C819BDEF76CF1 /* Pods_HRProgressButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRProgressButton_Tests.framework; path = "Pods-HRProgressButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		535E8F6C98240FF7AC2E75275AFE4F45 /* Pods-HRProgressButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRProgressButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		586CD55E2ED7ECB8193556EEE624B790 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F96BC2FCA1DC1339964799FF8EF6E33 /* Pods-HRProgressButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRProgressButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62519EFFCE6E37D61AEF23AACBEF8591 /* Pods-HRProgressButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRProgressButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		62892B1F908FDC62BE3F14E74489A916 /* Pods-HRProgressButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRProgressButton_Tests.modulemap"; sourceTree = "<group>"; };
+		6441D3EBAA4A7C25AE702CB5D7592EA1 /* Pods-HRProgressButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRProgressButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6618A5EC9654D84B5CB1AA069AF4A692 /* Pods-HRProgressButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRProgressButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		687282BBF1C253D49EF8EADA8ECC1EA9 /* Pods-HRProgressButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRProgressButton_Example.modulemap"; sourceTree = "<group>"; };
+		6A9B5EEC083FEE6E011A78A8E445A61C /* Pods-HRProgressButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRProgressButton_Example-dummy.m"; sourceTree = "<group>"; };
+		70308E4F878E103211631C70E2C8FF2B /* HRTextStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HRTextStyle.swift; sourceTree = "<group>"; };
+		72354879125733D1850C008F2E5A95F7 /* HRProgressButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRProgressButton.xcconfig; sourceTree = "<group>"; };
+		7B04E880F541F2C920C4429092A4BF16 /* HRProgressButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRProgressButton-umbrella.h"; sourceTree = "<group>"; };
+		869A8873D3DDFD34F1B2D6B7ED2D7F6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A5B15AAA00E80231796C9D32AFC9B97 /* HRProgressButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRProgressButton-prefix.pch"; sourceTree = "<group>"; };
+		A8825B471515BA21BCE6654978589838 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC54C759659E859960C23265CF960E74 /* Pods-HRProgressButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRProgressButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B362E99D01B91A70617A09637C55E329 /* HRProgressButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRProgressButton.modulemap; sourceTree = "<group>"; };
+		BDE19DAB97BEEB75965A923509E28F8B /* Pods-HRProgressButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRProgressButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9D4C4BF9A382CA82172A84B5523D19F /* Pods_HRProgressButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRProgressButton_Example.framework; path = "Pods-HRProgressButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97B4EDB04C4B32F160515C188E37546 /* Pods-HRProgressButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRProgressButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5B3B8F0D8CA898F317A281C04CB1C2F /* Pods-HRProgressButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRProgressButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EFD8E3F42B30905072C8DA99A98CA5A6 /* HRProgressButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HRProgressButton.swift; sourceTree = "<group>"; };
+		F66B7EBB9CFC6E7E9CF8A0827F2676F0 /* Pods-HRProgressButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRProgressButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE09B42BD97C1020FE4CED91AED00E52 /* HRIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HRIndicatorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002E44F5955FC554930B0C22D87554A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999B571C65B4453BC3B241534DB3D67C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0E8D1C3E9357DA214E0B28BBF8565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C591ADDAB7CB5BEC68FFAFE83D1276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CFB27A378B29F954E39A2AA0408C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD01B39CD5ED5B5A68CFF93A870C03B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329252E7FFC24BCC0132D7CF2C7138C0 /* Pods-HRProgressButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				869A8873D3DDFD34F1B2D6B7ED2D7F6C /* Info.plist */,
+				687282BBF1C253D49EF8EADA8ECC1EA9 /* Pods-HRProgressButton_Example.modulemap */,
+				AC54C759659E859960C23265CF960E74 /* Pods-HRProgressButton_Example-acknowledgements.markdown */,
+				BDE19DAB97BEEB75965A923509E28F8B /* Pods-HRProgressButton_Example-acknowledgements.plist */,
+				6A9B5EEC083FEE6E011A78A8E445A61C /* Pods-HRProgressButton_Example-dummy.m */,
+				6441D3EBAA4A7C25AE702CB5D7592EA1 /* Pods-HRProgressButton_Example-frameworks.sh */,
+				2B109BB796782DD3DB3CF5B1BFB18231 /* Pods-HRProgressButton_Example-resources.sh */,
+				D97B4EDB04C4B32F160515C188E37546 /* Pods-HRProgressButton_Example-umbrella.h */,
+				5F96BC2FCA1DC1339964799FF8EF6E33 /* Pods-HRProgressButton_Example.debug.xcconfig */,
+				6618A5EC9654D84B5CB1AA069AF4A692 /* Pods-HRProgressButton_Example.release.xcconfig */,
+			);
+			name = "Pods-HRProgressButton_Example";
+			path = "Target Support Files/Pods-HRProgressButton_Example";
+			sourceTree = "<group>";
+		};
+		3C073533F222899D0C07EC6698DE2B61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B362E99D01B91A70617A09637C55E329 /* HRProgressButton.modulemap */,
+				72354879125733D1850C008F2E5A95F7 /* HRProgressButton.xcconfig */,
+				19F34BAFAFE902EF7F176834A27B9D9E /* HRProgressButton-dummy.m */,
+				9A5B15AAA00E80231796C9D32AFC9B97 /* HRProgressButton-prefix.pch */,
+				7B04E880F541F2C920C4429092A4BF16 /* HRProgressButton-umbrella.h */,
+				586CD55E2ED7ECB8193556EEE624B790 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HRProgressButton";
+			sourceTree = "<group>";
+		};
+		444CD19BE7B7BE5A9D76B1CD1099C8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C524430A53BC872AD5F58914382B68 /* HRProgressButton.framework */,
+				C9D4C4BF9A382CA82172A84B5523D19F /* Pods_HRProgressButton_Example.framework */,
+				488B467E90C542DF029C819BDEF76CF1 /* Pods_HRProgressButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		458ACEDE0BF6D643F10F17B606603108 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				329252E7FFC24BCC0132D7CF2C7138C0 /* Pods-HRProgressButton_Example */,
+				FB9F87FE23529A8EA6607D1056A26282 /* Pods-HRProgressButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		545430FC7F44BC413F13C628F37F0BC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE09B42BD97C1020FE4CED91AED00E52 /* HRIndicatorView.swift */,
+				EFD8E3F42B30905072C8DA99A98CA5A6 /* HRProgressButton.swift */,
+				70308E4F878E103211631C70E2C8FF2B /* HRTextStyle.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6DFB452CA9CC67AFAC1E19894D57CEDF /* HRProgressButton */ = {
+			isa = PBXGroup;
+			children = (
+				545430FC7F44BC413F13C628F37F0BC3 /* Classes */,
+			);
+			name = HRProgressButton;
+			path = HRProgressButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D9C767433BB5ECC9364CF5FB3F839D43 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				444CD19BE7B7BE5A9D76B1CD1099C8A6 /* Products */,
+				458ACEDE0BF6D643F10F17B606603108 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1988AA38B33B9DD99F7DBFFDA03043 /* HRProgressButton */ = {
+			isa = PBXGroup;
+			children = (
+				6DFB452CA9CC67AFAC1E19894D57CEDF /* HRProgressButton */,
+				3C073533F222899D0C07EC6698DE2B61 /* Support Files */,
+			);
+			name = HRProgressButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9C767433BB5ECC9364CF5FB3F839D43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1988AA38B33B9DD99F7DBFFDA03043 /* HRProgressButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB9F87FE23529A8EA6607D1056A26282 /* Pods-HRProgressButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A8825B471515BA21BCE6654978589838 /* Info.plist */,
+				62892B1F908FDC62BE3F14E74489A916 /* Pods-HRProgressButton_Tests.modulemap */,
+				F66B7EBB9CFC6E7E9CF8A0827F2676F0 /* Pods-HRProgressButton_Tests-acknowledgements.markdown */,
+				2B18A0763D258887FAC81FFE1AEC2C78 /* Pods-HRProgressButton_Tests-acknowledgements.plist */,
+				4132717A32E3E6B9FD84D277577397E5 /* Pods-HRProgressButton_Tests-dummy.m */,
+				535E8F6C98240FF7AC2E75275AFE4F45 /* Pods-HRProgressButton_Tests-frameworks.sh */,
+				1F9B64E3740B85BC443163254EA35067 /* Pods-HRProgressButton_Tests-resources.sh */,
+				E5B3B8F0D8CA898F317A281C04CB1C2F /* Pods-HRProgressButton_Tests-umbrella.h */,
+				223D08D870169FF9907D80E5C67EB516 /* Pods-HRProgressButton_Tests.debug.xcconfig */,
+				62519EFFCE6E37D61AEF23AACBEF8591 /* Pods-HRProgressButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-HRProgressButton_Tests";
+			path = "Target Support Files/Pods-HRProgressButton_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A1A95A6FF7CAB0816B33618B4485677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607C02AAAA53BF730A20CA484E0E3F2F /* Pods-HRProgressButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E20C79620DFAEB6C498265794D3868A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FE69D55EEA45B2CA595938CECEE916 /* Pods-HRProgressButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B59FDE4885D094D345858B638A2A19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF9BE616FABFD4B4D3E89EBC4A5BA46 /* HRProgressButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D115E98B2513B780B98F9C6C14DE790 /* HRProgressButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9620C6D340A99DC7B49593B591C8BB /* Build configuration list for PBXNativeTarget "HRProgressButton" */;
+			buildPhases = (
+				5C0F520829563A05A8931B606DB40A90 /* Sources */,
+				D8CFB27A378B29F954E39A2AA0408C87 /* Frameworks */,
+				D9B59FDE4885D094D345858B638A2A19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRProgressButton;
+			productName = HRProgressButton;
+			productReference = 46C524430A53BC872AD5F58914382B68 /* HRProgressButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADFFE5A5AB3830A0CAC7C11E44338901 /* Pods-HRProgressButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1F26443A9E716B4848D81F5D6B75D1 /* Build configuration list for PBXNativeTarget "Pods-HRProgressButton_Tests" */;
+			buildPhases = (
+				87C7CD4E4F6039544430F2C545ECCFF9 /* Sources */,
+				002E44F5955FC554930B0C22D87554A3 /* Frameworks */,
+				8E20C79620DFAEB6C498265794D3868A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HRProgressButton_Tests";
+			productName = "Pods-HRProgressButton_Tests";
+			productReference = 488B467E90C542DF029C819BDEF76CF1 /* Pods_HRProgressButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7FFEE8C53748208411915D463AE6C4A /* Pods-HRProgressButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34665B619A798BCC1E3CB5B0BD7B0F5 /* Build configuration list for PBXNativeTarget "Pods-HRProgressButton_Example" */;
+			buildPhases = (
+				433C0EEAE6621A7AD8E94FBF8E787DFB /* Sources */,
+				7A0E8D1C3E9357DA214E0B28BBF8565F /* Frameworks */,
+				5A1A95A6FF7CAB0816B33618B4485677 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6046173D44A35A366CE87DA551C2990 /* PBXTargetDependency */,
+			);
+			name = "Pods-HRProgressButton_Example";
+			productName = "Pods-HRProgressButton_Example";
+			productReference = C9D4C4BF9A382CA82172A84B5523D19F /* Pods_HRProgressButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 444CD19BE7B7BE5A9D76B1CD1099C8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D115E98B2513B780B98F9C6C14DE790 /* HRProgressButton */,
+				D7FFEE8C53748208411915D463AE6C4A /* Pods-HRProgressButton_Example */,
+				ADFFE5A5AB3830A0CAC7C11E44338901 /* Pods-HRProgressButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433C0EEAE6621A7AD8E94FBF8E787DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4DC4BDA07179FEFB3D72D2EFC77879 /* Pods-HRProgressButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0F520829563A05A8931B606DB40A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651318F437332836E97C131EFFD96B95 /* HRIndicatorView.swift in Sources */,
+				9219048CBA26F92B024324D10E1A4694 /* HRProgressButton-dummy.m in Sources */,
+				5488CB336A4E9678B1F5F0CA9802106D /* HRProgressButton.swift in Sources */,
+				060D7373597AD9EFABE4AC4619B6CF53 /* HRTextStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C7CD4E4F6039544430F2C545ECCFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D762A7A563EDECE893F7E57735B7341 /* Pods-HRProgressButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6046173D44A35A366CE87DA551C2990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRProgressButton;
+			target = 2D115E98B2513B780B98F9C6C14DE790 /* HRProgressButton */;
+			targetProxy = 7E066AF8F5F9D4275623B4058E37A020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BCB62A15DEBEC7AFD60A8750EE3A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223D08D870169FF9907D80E5C67EB516 /* Pods-HRProgressButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRProgressButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRProgressButton_Tests/Pods-HRProgressButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRProgressButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09E2A8874F51EC659926AC33CF159AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72354879125733D1850C008F2E5A95F7 /* HRProgressButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRProgressButton/HRProgressButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRProgressButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRProgressButton/HRProgressButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HRProgressButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10FFC8F31CC77EFF5E598218FBFEF634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F96BC2FCA1DC1339964799FF8EF6E33 /* Pods-HRProgressButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRProgressButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRProgressButton_Example/Pods-HRProgressButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRProgressButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		856DDFE30A580925F695A7B4F7B51ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62519EFFCE6E37D61AEF23AACBEF8591 /* Pods-HRProgressButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRProgressButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRProgressButton_Tests/Pods-HRProgressButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRProgressButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		921B8C0F7C6399E39F3B44B418E85CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72354879125733D1850C008F2E5A95F7 /* HRProgressButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRProgressButton/HRProgressButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRProgressButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRProgressButton/HRProgressButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HRProgressButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7FD96F2B36255AB7BADF51A87F457CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6618A5EC9654D84B5CB1AA069AF4A692 /* Pods-HRProgressButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRProgressButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRProgressButton_Example/Pods-HRProgressButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRProgressButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1F26443A9E716B4848D81F5D6B75D1 /* Build configuration list for PBXNativeTarget "Pods-HRProgressButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BCB62A15DEBEC7AFD60A8750EE3A45 /* Debug */,
+				856DDFE30A580925F695A7B4F7B51ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9620C6D340A99DC7B49593B591C8BB /* Build configuration list for PBXNativeTarget "HRProgressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921B8C0F7C6399E39F3B44B418E85CBA /* Debug */,
+				09E2A8874F51EC659926AC33CF159AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34665B619A798BCC1E3CB5B0BD7B0F5 /* Build configuration list for PBXNativeTarget "Pods-HRProgressButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FFC8F31CC77EFF5E598218FBFEF634 /* Debug */,
+				E7FD96F2B36255AB7BADF51A87F457CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
